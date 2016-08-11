@@ -1,7 +1,13 @@
 <?php
-    session_start();
+    //session_start();
     $towerNum = $_POST["number"];
     $star="";
+    // function towerStar ($towerNum) {
+    //     for($i = 1 ; $i <= $towerNum ; $i++ ){
+    //         $star .= "*";
+    //         echo $star.'<br>';
+    //     }
+    // }
     function towerStar ($towerNum) {
         for($i = 1 ; $i <= $towerNum ; $i++ ){
             $star .= "*";
