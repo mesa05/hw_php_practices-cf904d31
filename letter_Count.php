@@ -26,22 +26,22 @@
     
 ?>
 
-    <html>
+<html>
 
-    <head>
-        <meta charset="utf-8">
-    </head>
+<head>
+    <meta charset="utf-8">
+</head>
 
-    <body>
-        <form method="post" action="">
-            <input type="text" name="txt1" value="">
-            <input type="submit" name="btnOK" value="btnStart">
-        </form>
-        <?php 
-        echo "數字共有".$numberCount."個<br>";
-        echo "英文字母共有".$letterCount."個<br>";
-    ?>
+<body>
+    <form method="post" action="">
+        <input type="text" name="txt1" value="">
+        <input type="submit" name="btnOK" value="btnStart">
+    </form>
+    <?php 
+    echo "數字共有".$numberCount."個<br>";
+    echo "英文字母共有".$letterCount."個<br>";
+?>
 
-    </body>
+</body>
 
-    </html>
+</html>
